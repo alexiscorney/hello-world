@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html> 
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	
+<div class="container">
+	<form action="hello.php" method="post">
+
+	<table div class="center"> 
+		<tr> 
+			<h1>Query a Date</h1>
+		 </tr>
+		<tr> </tr>
+		<tr> 
+			<td> <label>First Name: </label></td>
+			<td> </td> 
+			<td><input type="text" name="firstname"></br> </td> 
+		</tr>
+		<tr> 
+			<td> <label>Last Name: </label></td>
+			<td> </td> 
+			<td> <input type="text" name="lastname"></br></td> 
+		</tr>
+		<tr> 
+			<td> <label>Email address: </label> </td>
+			<td> </td> 
+			<td> <input type="text" name="email"></br></td> 
+		</tr>
+		<tr> 
+			<td> <label>Date of Event: </label> </td>
+			<td> </td> 
+			<td> 
+				<table>
+					<td>
+						Day: <input type="number" name="day" min="1" max="31">
+					</td>
+					<td>
+						Month: <input type="number" name="month" min="1" max="12">
+					</td>
+					<td>
+						Year: <input type="number" name="year" min="2015" max="3000">
+					</td>
+				</table>				
+			</td> 
+		</tr>
+
+		<tr>
+		
+			
+		
+		</tr>
+		
+	</div></table>
+
+	<div class="submit"><input type="submit"> </div>
+
+	</form>
+</div>
+</body>
+</html>	
